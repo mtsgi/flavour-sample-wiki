@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "flavour-wiki": "^0.0.3"
+  },
+  "name": "flavour-sample-wiki",
+  "version": "1.0.0",
+  "description": "sample wiki",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
