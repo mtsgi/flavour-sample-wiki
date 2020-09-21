@@ -144,10 +144,10 @@ finalhandler@~1.1.2:
     statuses "~1.5.0"
     unpipe "~1.0.0"
 
-flavour-wiki@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/flavour-wiki/-/flavour-wiki-0.0.3.tgz#a27dbe56932de5734c87df571558451ce65a8c44"
-  integrity sha512-XlHQD3l+TXs1iQEBGVORyhGHmn6tzi2JRZx5/jUry9i/WfRRcW7czziL1Hex2svsV+reJUzAXaG2YQSJV8f1uA==
+flavour-wiki@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/flavour-wiki/-/flavour-wiki-0.0.4.tgz#2806c3a178eab1d4d9326122a02003211354f2c2"
+  integrity sha512-PLpfYdn3M1noBbkBTq9NxrM1rFu4Pzf8PjMOgIvfA+Ct+gvqPshBhcvWhu2FfUPqoFaBqStnL10olhdYIRl/Fg==
   dependencies:
     express "^4.17.1"
     mustache "^4.0.1"
