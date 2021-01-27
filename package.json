@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "flavour-wiki": "^0.1.4"
+    "flavour-wiki": "^0.1.5"
   },
   "name": "flavour-sample-wiki",
   "version": "1.0.0",
