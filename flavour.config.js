@@ -1,19 +1,37 @@
 module.exports = {
-  title: '最終発表用Wiki',
+  title: 'サンプルWiki',
   lang: 'ja',
-  description: '最終発表用のWikiです。自由に編集したり記事を新規作成してください。',
+  description: 'どなたでも自由に記事の作成、編集を行うことができます。',
   style: '/assets/app.css',
   dict: {
-    newArticle: '新しい記事をつくる',
-    newArticleLabel: '記事を作成！',
-    defaultArticleTitle: '＜ここに記事タイトル＞',
-    defaultArticleBody: '*ここに本文を記述してください*',
-    editArticle: '記事を編集する',
-    editArticleLabel: '記事を更新！(編集履歴が保存されます)',
+    newArticle: 'Page記事作成',
+    newArticleLabel: '[作成]',
+    defaultArticleTitle: '{{ 記事タイトル }}',
+    defaultArticleBody: '{{ *ここに本文を記述してください* }}',
+    editArticle: 'Page:記事編集',
+    editArticleLabel: '[更新]',
     allArticles: 'すべての記事'
   },
   markdown: {
     breaks: true,
     gfm: true
-  }
+  },
+  links: [
+    {
+      href: "/",
+      label: "[リンク] 🏠 トップページ"
+    },
+    {
+      href: "/snapshot",
+      label: "[コマンド] 📸 現在のスナップショットを取得"
+    },
+    {
+      href: "https://github.com/mtsgi/flavour",
+      label: "[外部] 🔗 Flavour GitHub repo"
+    },
+    {
+      href: "https://www.npmjs.com/package/flavour-wiki",
+      label: "[外部] 🔗 flavour-wiki npm package"
+    }
+  ]
 };
